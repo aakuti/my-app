@@ -37,6 +37,16 @@
 		    <version>5.2.0</version>
 		</dependency>
 	</dependencies>
+	<server>
+		<id>nexus-snapshots</id>
+		<username>admin</username>
+		<password>admin</passsword>
+	</server>
+	<server>
+		<id>nexus-releases</id>
+		<username>admin</username>
+		<password>admin</passsword>
+	</server>
 	<properties>
    		<maven.compiler.source>6</maven.compiler.source>
    		<maven.compiler.target>1.6</maven.compiler.target>
